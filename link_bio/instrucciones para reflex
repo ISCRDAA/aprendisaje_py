@@ -1,0 +1,25 @@
+Instrucciones para crear un entorno virtual en ubuntu.
+
+apt install python3.10-venv
+
+y despues hay que crearlo 
+
+python3 -m venv venv ->es el segundo venv va el nombre del entorno virtual
+
+Lo tenemos que activar con el siguiente comando
+
+source venv/bin/activate 
+
+obvio tenemos que estar dentro de la carpeta donde se creo el entorno virtual.
+para poder desactivarlo escribimos deactivate
+
+para inicializar reflex tenemos que escribir en el entorno virtual reflex init
+
+para poder lanzar la aplicaicon es en la terminal siempre asegurandonos que estamos en el entorno virtual 
+
+reflex run
+
+Debemos tener en cuenta que es una programacion por componentes por lo cual tenemos que declararlos
+
+
+
