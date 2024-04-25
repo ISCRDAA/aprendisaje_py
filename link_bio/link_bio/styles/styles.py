@@ -10,6 +10,11 @@ class size(Enum):
     MEDIUM="0.8em"
     DEFAULT="1em"
     BIG="2em"
+#sirve para tamaños permitidos entre 1 y 9
+class sizeNum(Enum):
+    BIG="6"
+    MEDIUM="4"
+    SMALL="2"
 
 #stilos 
 STYLES={
